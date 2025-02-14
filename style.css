@@ -35,6 +35,7 @@ header span {
     /* 📍 Свойства flexbox для размещения container-a вертикально по центру */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .main-section .wrapper {
@@ -142,7 +143,7 @@ select:hover,
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 20px;
 }
 
 .books-list {
